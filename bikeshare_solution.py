@@ -38,7 +38,8 @@ def get_filters():
     # get user input for month (all, january, february, ... , june)
     correct_month = ['all' , 'january' , 'february' , 'march' , 'april' , 'may' , 'june']
     while True:
-        user_selected_city = input("Which month? (All, January , February , March , April , May or June) :  ")
+        raw_message_for_months = "Which month? (All, January , February , March , April , May or June) :  "
+        user_selected_city = input(raw_message_for_months)
         print("")
         if user_selected_city.lower() in correct_month:
             month = user_selected_city
