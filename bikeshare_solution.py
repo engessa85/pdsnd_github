@@ -22,7 +22,8 @@ def get_filters():
     correct_city_name = ['chicago','new york city','washington']
 
     while True:
-        user_selected_city = input("Would you like to explore data for (chicago, new york city, washington)?:  ")
+        raw_message_for_cities = "Would you like to explore data for (chicago, new york city, washington)?:  "
+        user_selected_city = input(raw_message_for_cities)
         print("")
         if user_selected_city.lower() in correct_city_name:
             city = user_selected_city
