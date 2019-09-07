@@ -28,7 +28,8 @@ def get_filters():
     correct_city_name = ['chicago','new york city','washington']
 
     while True:
-        user_selected_city = input("Would you like to explore data for (chicago, new york city, washington)?:  ")
+        raw_message_for_cities = "Would you like to explore data for (chicago, new york city, washington)?:  "
+        user_selected_city = input(raw_message_for_cities)
         print("")
         if user_selected_city.lower() in correct_city_name:
             city = user_selected_city
@@ -43,7 +44,8 @@ def get_filters():
     # get user input for month (all, january, february, ... , june)
     correct_month = ['all' , 'january' , 'february' , 'march' , 'april' , 'may' , 'june']
     while True:
-        user_selected_city = input("Which month? (All, January , February , March , April , May or June) :  ")
+        raw_message_for_months = "Which month? (All, January , February , March , April , May or June) :  "
+        user_selected_city = input(raw_message_for_months)
         print("")
         if user_selected_city.lower() in correct_month:
             month = user_selected_city
@@ -56,7 +58,8 @@ def get_filters():
     # get user input for day of week (all, monday, tuesday, ... sunday)
     correct_day = ['all' , 'monday' , 'tuesday' , 'wednesday' , 'thursday', 'friday' , 'saturday' , 'sunday' ]
     while True:
-        user_selected_day = input("Which day? (All , Monday , Tuesday , Wednesday , Thursday , Friday , Saturday , Sunday) :  ")
+        raw_message_for_days = "Which day? (All , Monday , Tuesday , Wednesday , Thursday , Friday , Saturday , Sunday) :  "
+        user_selected_day = input(raw_message_for_days)
         print("")
         if user_selected_day.lower() in correct_day:
             day = user_selected_day
