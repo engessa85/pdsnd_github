@@ -2,6 +2,12 @@ import time
 import pandas as pd
 import numpy as np
 
+######################################################################################################################
+#  Project Description:                                                                                              #
+#      In this project, Python script will be used to explore data related to bike share systems for three major     #
+#      cities in the United States Chicago, New York City, and **Washington.                                         #
+#####################################################################################################################
+
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
