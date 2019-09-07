@@ -21,12 +21,12 @@ Through python script and based on raw input, data will be imported from the dat
 ### Files used
 
 ##### This project include the following files.
-* Python file *bikeshare_solution.py*.
-* Readme file *README.md*.
-* Data files.
- - *chicago.csv*
- - *new_york_city.csv*
- - *washington.csv*
+- Python file **bikeshare_solution.py**.
+- Readme file **README.md**.
+- Data files.
+ - **chicago.csv**
+ - **new_york_city.csv**
+ - **washington.csv**
 
 
 ### Credits
@@ -37,3 +37,5 @@ Through python script and based on raw input, data will be imported from the dat
 >First site is [Data science made simple](http://www.datasciencemadesimple.com/group-dataframe-python-pandas-group-function-pandas/).
 
 >Second site is [pandas-docs](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.to_datetime.html?highlight=to_date#pandas.to_datetime).
+
+>Third site is [python-time-library](https://docs.python.org/3/library/time.html).
