@@ -52,7 +52,8 @@ def get_filters():
     # get user input for day of week (all, monday, tuesday, ... sunday)
     correct_day = ['all' , 'monday' , 'tuesday' , 'wednesday' , 'thursday', 'friday' , 'saturday' , 'sunday' ]
     while True:
-        user_selected_day = input("Which day? (All , Monday , Tuesday , Wednesday , Thursday , Friday , Saturday , Sunday) :  ")
+        raw_message_for_days = "Which day? (All , Monday , Tuesday , Wednesday , Thursday , Friday , Saturday , Sunday) :  "
+        user_selected_day = input(raw_message_for_days)
         print("")
         if user_selected_day.lower() in correct_day:
             day = user_selected_day
